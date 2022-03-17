@@ -1,0 +1,10 @@
+17:20:42 **** Incremental Build of configuration Debug for project Sterowanie_MCU ****
+make -j12 all 
+arm-none-eabi-size   Sterowanie_MCU.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10960	     20	   1700	  12680	   3188	Sterowanie_MCU.elf
+Finished building: default.size.stdout
+ 
+
+17:20:42 Build Finished. 0 errors, 0 warnings. (took 322ms)
+

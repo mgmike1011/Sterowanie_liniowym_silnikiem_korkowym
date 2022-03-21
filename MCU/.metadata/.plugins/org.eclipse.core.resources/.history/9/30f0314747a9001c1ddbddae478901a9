@@ -62,5 +62,5 @@ void Set_Direction_A4988(A4988_Drive* drive, int direction);
 void Enable_A4988(A4988_Drive* drive, int signal);
 void Reset_A4988(A4988_Drive* drive, int reset);
 void Sleep_A4988(A4988_Drive* drive, int sleep);
-int Calculate_Steps_A4988(A4988_Drive* drive, float angle);
+int Calculate_Steps_A4988(A4988_Drive* drive, float angle, int resolution);
 #endif /* INC_A4988_DRIVE_H_ */

@@ -1,8 +1,8 @@
 /*
  * A4988_Drive.h
  *
- *  Created on: March 2022
- *      Author: Agnieszka Piórkowska, Miłosz Gajewski
+ *  Created on: 21 mar 2022
+ *      Author: mgmil
  */
 
 #ifndef INC_A4988_DRIVE_H_
@@ -42,7 +42,6 @@ typedef struct{
 	uint16_t 		PIN_MS1,
 					PIN_MS2,
 					PIN_MS3;
-	int 			RESOLUTION;
 	// Enable PORT/PIN
 	GPIO_TypeDef* 	PORT_ENABLE;
 	uint16_t 		PIN_ENABLE;
@@ -62,5 +61,5 @@ void Set_Direction_A4988(A4988_Drive* drive, int direction);
 void Enable_A4988(A4988_Drive* drive, int signal);
 void Reset_A4988(A4988_Drive* drive, int reset);
 void Sleep_A4988(A4988_Drive* drive, int sleep);
-int Calculate_Steps_A4988(A4988_Drive* drive, float angle);
+int Calculate_Steps_A4988(A4988_Drive* drive, float angle, int resolution);
 #endif /* INC_A4988_DRIVE_H_ */

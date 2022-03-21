@@ -20,37 +20,31 @@ void Set_Resolution_A4988(A4988_Drive* drive, int resolution){
 			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_RESET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_RESET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_RESET);
-			drive->RESOLUTION = 1;
 			break;
 		case HALF_STEP:
 			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_RESET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_RESET);
-			drive->RESOLUTION = 2;
 			break;
 		case QUARTER_STEP:
 			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_RESET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_RESET);
-			drive->RESOLUTION = 4;
 			break;
 		case ONE_EIGHTH_STEP:
 			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_RESET);
-			drive->RESOLUTION = 8;
 			break;
 		case ONE_SIXTEENTH_STEP:
 			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_SET);
-			drive->RESOLUTION = 16;
 			break;
 		default:
 			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_SET);
 			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_SET);
-			drive->RESOLUTION = 16;
 	}
 }
 void Set_Direction_A4988(A4988_Drive* drive, int direction){
@@ -125,7 +119,7 @@ void Sleep_A4988(A4988_Drive* drive, int sleep){
 			HAL_GPIO_WritePin(*&(drive->PORT_SLEEP), drive->PIN_SLEEP, GPIO_PIN_RESET);
 	}
 }
-int Calculate_Steps_A4988(A4988_Drive* drive, float angle){
+int Calculate_Steps_A4988(A4988_Drive* drive, float angle, int resolution){
 	//
 	// Calculate steps steps needed to rotate by a given angle.
 	// @param angle: Angle.
@@ -136,7 +130,7 @@ int Calculate_Steps_A4988(A4988_Drive* drive, float angle){
 	int steps = 0;
 	float r_s,x_s;
 	r_s = 360/(drive->STEPS);
-	x_s = r_s/drive->RESOLUTION;
+	x_s = r_s/resolution;
 	steps = round(angle/x_s);
 	return steps;
 }

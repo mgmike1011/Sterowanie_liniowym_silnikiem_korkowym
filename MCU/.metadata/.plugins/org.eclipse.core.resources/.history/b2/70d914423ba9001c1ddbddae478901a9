@@ -1,0 +1,85 @@
+/*
+ * A4988_Drive.c
+ *
+ *  Created on: 21 mar 2022
+ *      Author: mgmil
+ */
+#include "A4988_Drive.h"
+#include "math.h"
+#include "main.h"
+#include "stm32f7xx_hal.h"
+void Set_Resolution_A4988(A4988_Drive* drive, int resolution){
+	//
+	//	Setting the resolution of the driver.
+	//	@param resolution: Resolution.
+	//	@param drive: Pointer to structure.
+	//	@return: none
+	//
+	switch(resolution){
+		case FULL_STEP:
+			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_RESET);
+			break;
+		case HALF_STEP:
+			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_RESET);
+			break;
+		case QUARTER_STEP:
+			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_RESET);
+			break;
+		case ONE_EIGHTH_STEP:
+			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_RESET);
+			break;
+		case ONE_SIXTEENTH_STEP:
+			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_SET);
+			break;
+		default:
+			HAL_GPIO_WritePin(*&(drive->PORT_MS1), drive->PIN_MS1, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS2), drive->PIN_MS2, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(*&(drive->PORT_MS3), drive->PIN_MS3, GPIO_PIN_SET);
+	}
+}
+void Set_Direction_A4988(A4988_Drive* drive, int direction){
+	//
+	//	Setting the direction of rotation.
+	//	@param Dir:	Direction 1 - Right, 2 - Left, default - Right.
+	//	@param drive: Pointer to structure.
+	//	@return: none
+	//
+	switch(direction){
+		case 1:
+			HAL_GPIO_WritePin(*&(drive->PORT_DIR), drive->PIN_DIR, GPIO_PIN_SET);
+			break;
+		case 2:
+			HAL_GPIO_WritePin(*&(drive->PORT_DIR), drive->PIN_DIR, GPIO_PIN_RESET);
+			break;
+		default:
+			HAL_GPIO_WritePin(*&(drive->PORT_DIR), drive->PIN_DIR, GPIO_PIN_SET);
+	}
+}
+void Enable_A4988(A4988_Drive* drive, int signal){
+	//
+	//	Enable controler.
+	//	@param sig: ENABLE_DRIVE - 1, DISABLE_DRIVE - 2, default - disable.
+	//	@param drive: Pointer to structure.
+	//	@return: none
+	//
+	switch(signal){
+		case ENABLE_DRIVE:
+			HAL_GPIO_WritePin(*&(drive->PORT_ENABLE), drive->PIN_ENABLE, GPIO_PIN_RESET);
+			break;
+		case DISABLE_DRIVE:
+			HAL_GPIO_WritePin(*&(drive->PORT_ENABLE), drive->PIN_ENABLE, GPIO_PIN_SET);
+			break;
+		default:
+			HAL_GPIO_WritePin(*&(drive->PORT_ENABLE), drive->PIN_ENABLE, GPIO_PIN_SET);
+	}
+}

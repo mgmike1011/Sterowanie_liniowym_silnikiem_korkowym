@@ -824,3 +824,1143 @@
 
 2022-03-21 17:42:12,278 [INFO] Activator:178 - !SESSION log4j initialized
 2022-03-21 17:42:16,935 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-22 15:52:01,445 [INFO] Activator:177 - 
+
+
+2022-03-22 15:52:01,447 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-22 15:52:05,670 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-22 15:54:46,662 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-03-22 15:54:46,756 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913
+2022-03-22 15:54:46,770 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/mcu/
+2022-03-22 15:54:46,770 [INFO] ApiDb:260 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/boardmanager/
+2022-03-22 15:54:46,772 [WARN] ApiDb:245 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/mcufinder/images/
+2022-03-22 15:54:46,782 [INFO] ApiDb:226 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-22 15:54:46,783 [INFO] DbMcusAds:119 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-22 15:54:46,979 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-22 15:54:47,068 [INFO] RulesReader:57 - Compatibility file has been processed (281 Rules)
+2022-03-22 15:54:47,133 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/mcu/
+2022-03-22 15:54:47,134 [INFO] ApiDb:260 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/boardmanager/
+2022-03-22 15:54:47,134 [INFO] ApiDb:247 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/mcufinder/images/
+2022-03-22 15:54:47,134 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\mgmil\.stmcufinder\plugins\mcufinder/ => C:\Users\mgmil\.stmcufinder\plugins\mcufinder
+2022-03-22 15:54:47,134 [INFO] ApiDb:226 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-22 15:54:47,135 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\mgmil\.stmcufinder\plugins\mcufinder/ => C:\Users\mgmil\.stmcufinder\plugins\mcufinder
+2022-03-22 15:54:47,135 [INFO] DbMcusAds:119 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-22 15:54:47,135 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\mgmil\.stmcufinder\plugins\mcufinder/ => C:\Users\mgmil\.stmcufinder\plugins\mcufinder
+2022-03-22 15:54:47,136 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\mgmil\.stmcufinder\plugins\mcufinder/ => C:\Users\mgmil\.stmcufinder\plugins\mcufinder
+2022-03-22 15:54:47,136 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-22 15:54:47,204 [INFO] MainPanel:230 - HeapMemory: 411041792
+2022-03-22 15:54:47,269 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/mcu/
+2022-03-22 15:54:47,269 [INFO] ApiDb:260 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/boardmanager/
+2022-03-22 15:54:47,270 [INFO] ApiDb:247 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/mcufinder/images/
+2022-03-22 15:54:47,270 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\mgmil\.stmcufinder\plugins\mcufinder/ => C:\Users\mgmil\.stmcufinder\plugins\mcufinder
+2022-03-22 15:54:47,270 [INFO] ApiDb:226 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-22 15:54:47,270 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\mgmil\.stmcufinder\plugins\mcufinder/ => C:\Users\mgmil\.stmcufinder\plugins\mcufinder
+2022-03-22 15:54:47,270 [INFO] DbMcusAds:119 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-22 15:54:47,270 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\mgmil\.stmcufinder\plugins\mcufinder/ => C:\Users\mgmil\.stmcufinder\plugins\mcufinder
+2022-03-22 15:54:47,270 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\mgmil\.stmcufinder\plugins\mcufinder/ => C:\Users\mgmil\.stmcufinder\plugins\mcufinder
+2022-03-22 15:54:47,271 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\mgmil\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-22 15:54:47,286 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913
+2022-03-22 15:54:47,287 [INFO] PluginManage:188 - Search for loadable plugins [exclusion list=, ]
+2022-03-22 15:54:47,288 [INFO] PluginManage:302 - Check plugin analytics
+2022-03-22 15:54:47,362 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-22 15:54:51,952 [INFO] AnalyticsPlugin:257 - Accepted Software Licenses: 
+2022-03-22 15:54:51,952 [INFO] AnalyticsPlugin:259 - Accepted CMSIS Pack Licenses: 
+2022-03-22 15:54:51,952 [INFO] AnalyticsPlugin:261 - Accepted Firmware Licenses: 
+2022-03-22 15:54:51,956 [INFO] PluginManage:352 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-03-22 15:54:51,957 [INFO] PluginManage:302 - Check plugin clock
+2022-03-22 15:54:51,967 [INFO] PluginManage:352 - Loaded plugin clock (category:base,tabindex:2)
+2022-03-22 15:54:51,968 [INFO] PluginManage:302 - Check plugin ddr
+2022-03-22 15:54:51,971 [INFO] PluginManage:352 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-03-22 15:54:51,971 [INFO] PluginManage:302 - Check plugin filemanager
+2022-03-22 15:54:52,170 [INFO] PluginManage:352 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-03-22 15:54:52,171 [INFO] PluginManage:302 - Check plugin ipmanager
+2022-03-22 15:54:52,187 [INFO] PluginManage:352 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-03-22 15:54:52,188 [INFO] PluginManage:302 - Check plugin lpbam
+2022-03-22 15:54:52,208 [INFO] PluginManage:352 - Loaded plugin lpbam (category:base,tabindex:0)
+2022-03-22 15:54:52,209 [INFO] PluginManage:302 - Check plugin pinoutandconfiguration
+2022-03-22 15:54:52,223 [INFO] PluginManage:352 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-03-22 15:54:52,223 [INFO] PluginManage:302 - Check plugin pinoutconfig
+2022-03-22 15:54:52,265 [INFO] PluginManage:352 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-03-22 15:54:52,266 [INFO] PluginManage:302 - Check plugin power
+2022-03-22 15:54:52,278 [INFO] PluginManage:352 - Loaded plugin power (category:power,tabindex:4)
+2022-03-22 15:54:52,278 [INFO] PluginManage:302 - Check plugin projectmanager
+2022-03-22 15:54:52,312 [INFO] PluginManage:352 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-03-22 15:54:52,312 [INFO] PluginManage:302 - Check plugin thirdparty
+2022-03-22 15:54:52,493 [WARN] IntegrityCheckThread:78 - waiting for thirdparty lock release [integrity check]
+2022-03-22 15:54:52,493 [INFO] PluginManage:352 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-03-22 15:54:52,494 [INFO] IntegrityCheckThread:80 - entering critical section [integrity check]
+2022-03-22 15:54:52,494 [INFO] PluginManage:302 - Check plugin tools
+2022-03-22 15:54:52,495 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [1/15]
+2022-03-22 15:54:52,497 [INFO] PluginManage:352 - Loaded plugin tools (category:base,tabindex:7)
+2022-03-22 15:54:52,497 [INFO] PluginManage:302 - Check plugin tutovideos
+2022-03-22 15:54:52,760 [INFO] PluginManage:352 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-03-22 15:54:52,761 [INFO] PluginManage:302 - Check plugin updater
+2022-03-22 15:54:52,786 [INFO] PluginManage:352 - Loaded plugin updater (category:base,tabindex:12)
+2022-03-22 15:54:52,787 [INFO] PluginManage:275 - PluginManage : Loaded plugins [14]
+2022-03-22 15:54:53,113 [INFO] PinOutPanel:1465 - setPackage(No Configuration,No Configuration)
+2022-03-22 15:54:53,221 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,222 [INFO] PluginManager:213 - loadIPPluginJar : add adc
+2022-03-22 15:54:53,225 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,225 [INFO] PluginManager:213 - loadIPPluginJar : add aes
+2022-03-22 15:54:53,227 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,228 [INFO] PluginManager:213 - loadIPPluginJar : add can
+2022-03-22 15:54:53,230 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,230 [INFO] PluginManager:213 - loadIPPluginJar : add comp
+2022-03-22 15:54:53,236 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,237 [INFO] PluginManager:213 - loadIPPluginJar : add cryp
+2022-03-22 15:54:53,239 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,240 [INFO] PluginManager:213 - loadIPPluginJar : add dfsdm
+2022-03-22 15:54:53,245 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,246 [INFO] PluginManager:213 - loadIPPluginJar : add dma
+2022-03-22 15:54:53,251 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,251 [INFO] PluginManager:213 - loadIPPluginJar : add dma3
+2022-03-22 15:54:53,255 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,256 [INFO] PluginManager:213 - loadIPPluginJar : add fatfs
+2022-03-22 15:54:53,260 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,261 [INFO] PluginManager:213 - loadIPPluginJar : add fmc
+2022-03-22 15:54:53,271 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,271 [INFO] PluginManager:213 - loadIPPluginJar : add freertos
+2022-03-22 15:54:53,272 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,273 [INFO] PluginManager:213 - loadIPPluginJar : add genericplugin
+2022-03-22 15:54:53,275 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,275 [INFO] PluginManager:213 - loadIPPluginJar : add gfxmmu
+2022-03-22 15:54:53,280 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,280 [INFO] PluginManager:213 - loadIPPluginJar : add gic
+2022-03-22 15:54:53,288 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,288 [INFO] PluginManager:213 - loadIPPluginJar : add gpio
+2022-03-22 15:54:53,291 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,291 [INFO] PluginManager:213 - loadIPPluginJar : add gtzc
+2022-03-22 15:54:53,294 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,294 [INFO] PluginManager:213 - loadIPPluginJar : add hash
+2022-03-22 15:54:53,297 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,297 [INFO] PluginManager:213 - loadIPPluginJar : add i2c
+2022-03-22 15:54:53,301 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,301 [INFO] PluginManager:213 - loadIPPluginJar : add i2s
+2022-03-22 15:54:53,304 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,304 [INFO] PluginManager:213 - loadIPPluginJar : add ipddr
+2022-03-22 15:54:53,310 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,311 [INFO] PluginManager:213 - loadIPPluginJar : add linkedlist
+2022-03-22 15:54:53,313 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,313 [INFO] PluginManager:213 - loadIPPluginJar : add lorawan
+2022-03-22 15:54:53,314 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,314 [INFO] PluginManager:213 - loadIPPluginJar : add ltdc
+2022-03-22 15:54:53,318 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,319 [INFO] PluginManager:213 - loadIPPluginJar : add mdma
+2022-03-22 15:54:53,322 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,323 [INFO] PluginManager:213 - loadIPPluginJar : add nvic
+2022-03-22 15:54:53,325 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,326 [INFO] PluginManager:213 - loadIPPluginJar : add opamp
+2022-03-22 15:54:53,329 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,329 [INFO] PluginManager:213 - loadIPPluginJar : add openamp
+2022-03-22 15:54:53,332 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,332 [INFO] PluginManager:213 - loadIPPluginJar : add pdm2pcm
+2022-03-22 15:54:53,339 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,342 [INFO] PluginManager:213 - loadIPPluginJar : add plateformsettings
+2022-03-22 15:54:53,344 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,345 [INFO] PluginManager:213 - loadIPPluginJar : add quadspi
+2022-03-22 15:54:53,348 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,348 [INFO] PluginManager:213 - loadIPPluginJar : add resmgrutility
+2022-03-22 15:54:53,351 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,351 [INFO] PluginManager:213 - loadIPPluginJar : add sai
+2022-03-22 15:54:53,353 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,353 [INFO] PluginManager:213 - loadIPPluginJar : add spi
+2022-03-22 15:54:53,356 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,356 [INFO] PluginManager:213 - loadIPPluginJar : add stm32_wpan
+2022-03-22 15:54:53,358 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,358 [INFO] PluginManager:213 - loadIPPluginJar : add tim
+2022-03-22 15:54:53,361 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,361 [INFO] PluginManager:213 - loadIPPluginJar : add touchsensing
+2022-03-22 15:54:53,363 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,364 [INFO] PluginManager:213 - loadIPPluginJar : add tracer_emb
+2022-03-22 15:54:53,368 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,368 [INFO] PluginManager:213 - loadIPPluginJar : add ts
+2022-03-22 15:54:53,370 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,370 [INFO] PluginManager:213 - loadIPPluginJar : add tsc
+2022-03-22 15:54:53,372 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,372 [INFO] PluginManager:213 - loadIPPluginJar : add ucpd
+2022-03-22 15:54:53,374 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,374 [INFO] PluginManager:213 - loadIPPluginJar : add usart
+2022-03-22 15:54:53,377 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:54:53,377 [INFO] PluginManager:213 - loadIPPluginJar : add usbx
+2022-03-22 15:54:53,639 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-03-22 15:54:53,745 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-03-22 15:54:53,751 [INFO] DbMcusAds:47 - JSON generation date=Thu Sep 30 08:55:10 CEST 2021 (1632984910476)
+2022-03-22 15:54:53,751 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-03-22 15:54:53,796 [WARN] DetailPanel:320 - Failed to get advertising image, set to default
+2022-03-22 15:54:53,903 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-03-22 15:54:53,905 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-03-22 15:54:53,905 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-03-22 15:54:53,905 [WARN] DetailPanel:320 - Failed to get advertising image, set to default
+2022-03-22 15:54:53,906 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-03-22 15:54:53,957 [INFO] Updater:1026 - Updater Version found : 6.5.0
+2022-03-22 15:54:53,973 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913
+2022-03-22 15:54:54,263 [INFO] MainUpdater:2729 - connection check result : 10
+2022-03-22 15:54:54,263 [INFO] MainUpdater:276 - Updater Check For Update Now.
+2022-03-22 15:54:54,264 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.50
+2022-03-22 15:54:54,413 [INFO] CheckServerUpdateThread:115 - End of CheckServer Thread
+2022-03-22 15:54:54,487 [INFO] MainUpdater:2729 - connection check result : 10
+2022-03-22 15:54:54,487 [INFO] MainUpdater:2729 - connection check result : 10
+2022-03-22 15:54:54,520 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-03-22 15:54:54,521 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.50
+2022-03-22 15:54:54,521 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2022-03-22 15:54:55,598 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.1.0
+2022-03-22 15:54:55,604 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.3
+2022-03-22 15:54:55,607 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.1
+2022-03-22 15:54:55,611 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.2
+2022-03-22 15:54:55,616 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.1
+2022-03-22 15:54:55,619 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.2
+2022-03-22 15:54:55,625 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.3
+2022-03-22 15:54:55,630 [WARN] PackLoader:238 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.4.8.0
+2022-03-22 15:54:55,636 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0
+2022-03-22 15:54:55,658 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.0.0
+2022-03-22 15:54:55,666 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.2.0.0
+2022-03-22 15:54:55,672 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2022-03-22 15:54:55,681 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.2.0
+2022-03-22 15:54:55,691 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.2.1
+2022-03-22 15:54:55,697 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.1.0.0
+2022-03-22 15:54:55,719 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.0.0
+2022-03-22 15:54:55,725 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.18.1
+2022-03-22 15:54:55,727 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.18.0
+2022-03-22 15:54:55,736 [WARN] PackLoader:238 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2022-03-22 15:54:55,787 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.0.0
+2022-03-22 15:54:55,915 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2022-03-22 15:54:55,964 [WARN] PackLoader:238 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.0
+2022-03-22 15:54:56,011 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.17.0
+2022-03-22 15:54:56,037 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.0.0
+2022-03-22 15:54:56,055 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2022-03-22 15:54:56,078 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2022-03-22 15:54:56,091 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.0.0
+2022-03-22 15:54:56,101 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2022-03-22 15:54:56,132 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.1.0
+2022-03-22 15:54:56,252 [WARN] PackLoader:238 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2022-03-22 15:54:56,257 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2022-03-22 15:54:56,260 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.0.0
+2022-03-22 15:54:56,280 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2022-03-22 15:54:56,295 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.0
+2022-03-22 15:54:56,300 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2022-03-22 15:54:56,305 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.5.2.0
+2022-03-22 15:54:56,309 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.0.0
+2022-03-22 15:54:56,316 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.0.1
+2022-03-22 15:54:56,322 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.0.0
+2022-03-22 15:54:56,325 [INFO] ThirdParty:925 - Integrity check success = true
+2022-03-22 15:54:56,325 [INFO] IntegrityCheckThread:94 - exiting critical section [integrity check]
+2022-03-22 15:54:56,325 [INFO] IntegrityCheckThread:97 - End integrity checks thread
+2022-03-22 15:54:56,325 [INFO] ThirdParty:825 - entering critical section [close project]
+2022-03-22 15:54:56,326 [INFO] ThirdParty:835 - exiting critical section [close project]
+2022-03-22 15:54:56,330 [INFO] PinOutPanel:1465 - setPackage(No Configuration,No Configuration)
+2022-03-22 15:54:56,336 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 385544376 Bytes (500170752)
+2022-03-22 15:54:56,337 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-03-22 15:54:56,337 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.50
+2022-03-22 15:54:56,337 [INFO] OpenFileManager:303 - Change cursor
+2022-03-22 15:54:56,377 [INFO] Mcu:1893 - Initializing MCU STM32F746ZGTx STM32F746ZGTx STM32F746ZGT6
+2022-03-22 15:54:58,566 [INFO] Context:599 - Trying to add GPIOservice into a context  which must be forbidden
+2022-03-22 15:54:59,441 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2022-03-22 15:54:59,442 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2022-03-22 15:54:59,442 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2022-03-22 15:54:59,448 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2022-03-22 15:54:59,450 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-03-22 15:54:59,451 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-03-22 15:54:59,451 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-03-22 15:54:59,451 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-03-22 15:54:59,451 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-03-22 15:54:59,457 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.1: no header file found
+2022-03-22 15:54:59,457 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2022-03-22 15:54:59,458 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.1: no header file found
+2022-03-22 15:54:59,458 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2022-03-22 15:54:59,459 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2022-03-22 15:54:59,461 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-03-22 15:54:59,461 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-03-22 15:54:59,461 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-03-22 15:54:59,467 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,467 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,467 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,467 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,468 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,469 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-22 15:54:59,470 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2022-03-22 15:54:59,475 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-03-22 15:54:59,475 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-03-22 15:54:59,475 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-03-22 15:54:59,543 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-03-22 15:54:59,543 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-03-22 15:54:59,543 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-03-22 15:54:59,549 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-03-22 15:54:59,549 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-03-22 15:54:59,551 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-03-22 15:54:59,551 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-03-22 15:54:59,552 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-03-22 15:54:59,552 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-03-22 15:54:59,552 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-03-22 15:54:59,565 [INFO] ThirdPartyModel:282 - Start build external matchings
+2022-03-22 15:54:59,843 [INFO] ThirdPartyModel:295 - End build external matchings
+2022-03-22 15:54:59,861 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (48MHZClocksFreq_Value)
+2022-03-22 15:54:59,862 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (ADC12outputFreq_Value)
+2022-03-22 15:54:59,862 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (ADC34outputFreq_Value)
+2022-03-22 15:54:59,862 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2022-03-22 15:54:59,862 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (I2SClocksFreq_Value)
+2022-03-22 15:54:59,862 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Parameter (LCDTFToutputFreq_Value) has invalid value (96000000)
+2022-03-22 15:54:59,862 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (MCOFreq_Value)
+2022-03-22 15:54:59,863 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLMCOFreq_Value)
+2022-03-22 15:54:59,863 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PLLMUL)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PRESCALERUSB)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (RTCHSEDivFreq_Value)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SDMMCFreq_Value) has invalid value (72000000)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (SYSCLKSourceVirtual)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM15Freq_Value)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM16Freq_Value)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM17Freq_Value)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM1Freq_Value)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM20Freq_Value)
+2022-03-22 15:54:59,864 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM2Freq_Value)
+2022-03-22 15:54:59,865 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM3Freq_Value)
+2022-03-22 15:54:59,865 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIM8Freq_Value)
+2022-03-22 15:54:59,865 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VCOOutput2Freq_Value)
+2022-03-22 15:54:59,865 [INFO] ImportTextPane:183 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (VcooutputI2S)
+2022-03-22 15:55:00,346 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 400317104 Bytes (545259520)
+2022-03-22 15:55:00,480 [INFO] ApiDb:567 - Connected to CubeFinder SQLite database (C:\Users\mgmil\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-03-22 15:55:00,508 [INFO] ApiDb:654 - CubeFinder database Data Model version=2.1
+2022-03-22 15:55:00,509 [INFO] ApiDb:655 - CubeFinder database Configuration version=3.0.28
+2022-03-22 15:55:00,509 [INFO] ApiDb:656 - CubeFinder database generation date=2022-02-18 (1645170766)
+2022-03-22 15:55:00,509 [INFO] ApiDb:657 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.0, STM32Cube_FW_F7_V1.16.2, STM32Cube_FW_G0_V1.5.0, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.0, STM32Cube_FW_WB_V1.13.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.0.0, X-CUBE-AZRTOS-F7_V1.0.0, X-CUBE-AZRTOS-G0_V1.0.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.1, X-CUBE-BLE2_V3.2.2, X-CUBE-EEPRMA1_V3.1.0, X-CUBE-GNSS1_V5.2.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-NFC4_V2.0.3, X-CUBE-SFXS2LP1_V3.1.0, X-CUBE-SUBG2_V4.2.0]
+2022-03-22 15:55:01,964 [INFO] ApiDb:212 - Found 97 in-development CPN: [NUCLEO-C031C6, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L4R5QGI6STR, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q]
+2022-03-22 15:55:01,966 [INFO] DbMcus:201 - Found 3458 MCUs, 3458 are supported
+2022-03-22 15:55:01,968 [INFO] ApiDb:407 - Load user favorites file C:\Users\mgmil/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-22 15:55:01,968 [INFO] ApiDb:411 - User favorites MCUs=[]
+2022-03-22 15:55:01,968 [INFO] DbMcus:207 - Set 0 / 0 favorites MCUs
+2022-03-22 15:55:01,975 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2022-03-22 15:55:01,975 [INFO] ThirdParty:787 - entering critical section [change project]
+2022-03-22 15:55:01,975 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.0.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.1
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.1
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.8.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.17.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-03-22 15:55:01,976 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.1
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-03-22 15:55:01,977 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-03-22 15:55:01,978 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.0
+2022-03-22 15:55:01,978 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.1
+2022-03-22 15:55:01,978 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-03-22 15:55:01,978 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2022-03-22 15:55:01,978 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.0.0
+2022-03-22 15:55:01,978 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.0
+2022-03-22 15:55:01,978 [INFO] ThirdParty:793 - exiting critical section [change project]
+2022-03-22 15:55:02,491 [INFO] PinOutPanel:1465 - setPackage(No Configuration,No Configuration)
+2022-03-22 15:55:02,493 [INFO] PinOutPanel:1465 - setPackage(STM32F746ZGTx,LQFP144)
+2022-03-22 15:55:03,547 [INFO] UtilMem:74 - Before build in PCC Used Memory: 452263208 Bytes (545259520)
+2022-03-22 15:55:04,236 [INFO] UtilMem:74 - After build in PCC Used Memory: 440161792 Bytes (545259520)
+2022-03-22 15:55:04,270 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,271 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,271 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,271 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,271 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,271 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,271 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,271 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,272 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,272 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,272 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,272 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,272 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,272 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,272 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,273 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,273 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,273 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,273 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,273 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,273 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,274 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,274 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,274 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,274 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,274 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,274 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,275 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,275 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,275 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,275 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,275 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,275 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,276 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,276 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,276 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,277 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,277 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,277 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,278 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,278 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,278 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,278 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,279 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,279 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,279 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,279 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,279 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,280 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,280 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,280 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,280 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,281 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,281 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,281 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,281 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,282 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,282 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,282 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,282 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,283 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,283 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,283 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,290 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,291 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,291 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,292 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,292 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,293 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,294 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,294 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,295 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,296 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,296 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-03-22 15:55:04,344 [INFO] ApiDbMcu:488 - Load IP Config File for PDM2PCM
+2022-03-22 15:55:04,553 [INFO] OpenFileManager:323 - Restore cursor
+2022-03-22 15:55:43,604 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 15:56:15,277 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:01:38,045 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 497010384 Bytes (567279616)
+2022-03-22 16:01:40,091 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 467064680 Bytes (567279616)
+2022-03-22 16:01:40,568 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:01:40,568 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:01:40,568 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:01:40,568 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:01:40,568 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:01:40,568 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:01:40,570 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:01:41,332 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:01:41,620 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:01:41,699 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:01:41,909 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:01:41,922 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:01:42,028 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:01:42,342 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:01:42,456 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:01:42,466 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:01:42,635 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:01:42,640 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:01:42,732 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:01:42,750 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:01:42,885 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:01:42,891 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:01:42,952 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:01:42,984 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:01:43,121 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:01:43,130 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:01:43,245 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:01:43,273 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:01:43,400 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:01:43,404 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:01:43,466 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:01:43,480 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:01:43,589 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:01:43,646 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:01:43,741 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:01:43,752 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:01:43,877 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:01:44,737 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 334mS.
+2022-03-22 16:01:44,756 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:01:45,167 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:01:45,174 [INFO] ApiDbMcu:488 - Load IP Config File for FATFS
+2022-03-22 16:01:45,179 [INFO] ApiDbMcu:488 - Load IP Config File for FREERTOS
+2022-03-22 16:01:45,180 [INFO] ApiDbMcu:488 - Load IP Config File for LIBJPEG
+2022-03-22 16:01:45,187 [INFO] ApiDbMcu:488 - Load IP Config File for LWIP
+2022-03-22 16:01:45,192 [INFO] ApiDbMcu:488 - Load IP Config File for MBEDTLS
+2022-03-22 16:01:45,199 [INFO] ApiDbMcu:488 - Load IP Config File for USB_DEVICE
+2022-03-22 16:01:45,202 [INFO] ApiDbMcu:488 - Load IP Config File for USB_HOST
+2022-03-22 16:01:46,445 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1689mS.
+2022-03-22 16:01:46,446 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 1mS.
+2022-03-22 16:01:46,450 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:04:36,537 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 424333680 Bytes (699400192)
+2022-03-22 16:04:36,796 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:04:36,796 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:04:36,797 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:04:36,797 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:04:36,797 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:04:36,797 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:04:36,798 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:04:37,235 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:04:37,313 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:04:37,346 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:04:37,430 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:04:37,436 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:04:37,500 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:04:37,604 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:04:37,677 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:04:37,694 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:04:37,775 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:04:37,782 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:04:37,841 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:04:37,858 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:04:37,937 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:04:37,944 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:04:37,996 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:04:38,013 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:04:38,083 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:04:38,089 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:04:38,143 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:04:38,159 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:04:38,226 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:04:38,230 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:04:38,323 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:04:38,339 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:04:38,451 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:04:38,484 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:04:38,553 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:04:38,563 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:04:38,651 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:04:39,173 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 218mS.
+2022-03-22 16:04:39,176 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:04:39,472 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:04:40,506 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1330mS.
+2022-03-22 16:04:40,507 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 1mS.
+2022-03-22 16:04:40,509 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:04:46,636 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 299602048 Bytes (745537536)
+2022-03-22 16:04:46,864 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:04:46,864 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:04:46,864 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:04:46,864 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:04:46,864 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:04:46,865 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:04:46,865 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:04:47,247 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:04:47,314 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:04:47,342 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:04:47,403 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:04:47,408 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:04:47,455 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:04:47,556 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:04:47,619 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:04:47,632 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:04:47,699 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:04:47,703 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:04:47,751 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:04:47,764 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:04:47,832 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:04:47,837 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:04:47,885 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:04:47,900 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:04:47,964 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:04:47,969 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:04:48,015 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:04:48,029 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:04:48,091 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:04:48,095 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:04:48,138 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:04:48,150 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:04:48,246 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:04:48,269 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:04:48,335 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:04:48,344 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:04:48,426 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:04:48,984 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 226mS.
+2022-03-22 16:04:48,987 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:04:49,254 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:04:50,227 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1240mS.
+2022-03-22 16:04:50,228 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:04:50,231 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:06:20,465 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:06:23,997 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:06:26,018 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 263307448 Bytes (765460480)
+2022-03-22 16:06:27,585 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 314687672 Bytes (765460480)
+2022-03-22 16:06:27,793 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:06:27,793 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:06:27,793 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:06:27,793 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:06:27,793 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:06:27,794 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:06:27,797 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:06:28,174 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:06:28,246 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:06:28,289 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:06:28,357 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:06:28,362 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:06:28,412 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:06:28,494 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:06:28,561 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:06:28,574 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:06:28,653 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:06:28,659 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:06:28,710 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:06:28,723 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:06:28,786 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:06:28,790 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:06:28,841 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:06:28,857 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:06:28,922 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:06:28,927 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:06:28,974 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:06:28,987 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:06:29,066 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:06:29,069 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:06:29,112 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:06:29,124 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:06:29,210 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:06:29,232 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:06:29,299 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:06:29,308 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:06:29,377 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:06:29,935 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 216mS.
+2022-03-22 16:06:29,938 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:06:30,110 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:06:31,020 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1082mS.
+2022-03-22 16:06:31,021 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 1mS.
+2022-03-22 16:06:31,024 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:07:24,465 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:07:27,050 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 472852352 Bytes (765460480)
+2022-03-22 16:07:28,766 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 283320576 Bytes (765460480)
+2022-03-22 16:07:29,008 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:07:29,008 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:07:29,008 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:07:29,008 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:07:29,008 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:07:29,009 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:07:29,009 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:07:29,365 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:07:29,436 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:07:29,464 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:07:29,526 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:07:29,531 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:07:29,577 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:07:29,653 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:07:29,720 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:07:29,733 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:07:29,812 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:07:29,818 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:07:29,865 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:07:29,877 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:07:29,943 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:07:29,947 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:07:29,993 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:07:30,008 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:07:30,070 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:07:30,074 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:07:30,121 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:07:30,135 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:07:30,223 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:07:30,227 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:07:30,278 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:07:30,307 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:07:30,379 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:07:30,402 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:07:30,465 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:07:30,474 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:07:30,543 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:07:31,049 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 220mS.
+2022-03-22 16:07:31,052 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:07:31,337 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:07:32,195 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1143mS.
+2022-03-22 16:07:32,196 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 1mS.
+2022-03-22 16:07:32,199 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:07:56,884 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:08:03,652 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 312465840 Bytes (765460480)
+2022-03-22 16:08:05,411 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 348643760 Bytes (765460480)
+2022-03-22 16:08:06,923 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 391109040 Bytes (765460480)
+2022-03-22 16:08:07,120 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:08:07,120 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:08:07,120 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:08:07,120 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:08:07,120 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:08:07,121 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:08:07,121 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:08:07,513 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:08:07,575 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:08:07,601 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:08:07,664 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:08:07,670 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:08:07,748 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:08:07,857 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:08:07,921 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:08:07,936 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:08:08,013 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:08:08,019 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:08:08,067 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:08:08,081 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:08:08,145 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:08:08,150 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:08:08,196 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:08:08,211 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:08:08,273 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:08:08,278 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:08:08,324 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:08:08,337 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:08:08,403 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:08:08,406 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:08:08,449 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:08:08,461 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:08:08,532 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:08:08,553 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:08:08,618 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:08:08,626 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:08:08,693 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:08:09,258 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 220mS.
+2022-03-22 16:08:09,262 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:08:09,435 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:08:10,410 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1148mS.
+2022-03-22 16:08:10,411 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 1mS.
+2022-03-22 16:08:10,414 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:08:55,014 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:09:00,920 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:09:03,266 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 269677528 Bytes (765460480)
+2022-03-22 16:09:04,371 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 304280536 Bytes (765460480)
+2022-03-22 16:09:06,068 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 346223576 Bytes (765460480)
+2022-03-22 16:09:06,306 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:09:06,306 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:09:06,306 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:09:06,307 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:09:06,307 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:09:06,307 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:09:06,309 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:09:06,650 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:09:06,713 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:09:06,738 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:09:06,797 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:09:06,802 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:09:06,853 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:09:06,948 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:09:07,033 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:09:07,052 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:09:07,136 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:09:07,142 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:09:07,190 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:09:07,202 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:09:07,266 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:09:07,270 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:09:07,316 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:09:07,330 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:09:07,391 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:09:07,396 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:09:07,442 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:09:07,456 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:09:07,516 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:09:07,520 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:09:07,562 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:09:07,574 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:09:07,645 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:09:07,666 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:09:07,727 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:09:07,736 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:09:07,801 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:09:08,394 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 221mS.
+2022-03-22 16:09:08,397 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:09:08,570 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:09:09,428 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1031mS.
+2022-03-22 16:09:09,429 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:09:09,433 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:09:48,529 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:09:56,580 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:09:57,611 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 300354248 Bytes (765460480)
+2022-03-22 16:09:59,093 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 334435016 Bytes (765460480)
+2022-03-22 16:10:00,372 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 376500768 Bytes (765460480)
+2022-03-22 16:10:00,592 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:10:00,592 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:10:00,592 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:10:00,592 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:10:00,592 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:10:00,593 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:10:00,594 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:10:01,006 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:10:01,073 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:10:01,100 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:10:01,164 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:10:01,169 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:10:01,216 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:10:01,323 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:10:01,384 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:10:01,397 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:10:01,482 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:10:01,489 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:10:01,536 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:10:01,553 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:10:01,619 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:10:01,624 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:10:01,671 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:10:01,685 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:10:01,747 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:10:01,751 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:10:01,797 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:10:01,810 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:10:01,871 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:10:01,875 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:10:01,917 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:10:01,929 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:10:01,999 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:10:02,021 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:10:02,099 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:10:02,108 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:10:02,200 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:10:02,709 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 213mS.
+2022-03-22 16:10:02,712 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:10:02,968 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:10:03,821 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1109mS.
+2022-03-22 16:10:03,822 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:10:03,826 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:11:25,148 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:11:31,985 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:11:33,764 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 288479240 Bytes (765460480)
+2022-03-22 16:11:34,674 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 322560008 Bytes (765460480)
+2022-03-22 16:11:35,597 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 366073864 Bytes (765460480)
+2022-03-22 16:11:35,790 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:11:35,790 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:11:35,790 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:11:35,790 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:11:35,790 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:11:35,791 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:11:35,792 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:11:36,126 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:11:36,188 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:11:36,213 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:11:36,273 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:11:36,278 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:11:36,325 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:11:36,437 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:11:36,539 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:11:36,553 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:11:36,632 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:11:36,641 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:11:36,688 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:11:36,700 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:11:36,773 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:11:36,777 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:11:36,824 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:11:36,839 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:11:36,902 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:11:36,907 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:11:36,952 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:11:36,964 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:11:37,026 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:11:37,029 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:11:37,073 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:11:37,084 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:11:37,156 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:11:37,177 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:11:37,239 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:11:37,248 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:11:37,315 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:11:37,906 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 218mS.
+2022-03-22 16:11:37,909 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:11:38,171 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:11:39,042 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1133mS.
+2022-03-22 16:11:39,043 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:11:39,046 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:12:22,157 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:12:41,611 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:12:43,832 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 267964488 Bytes (784334848)
+2022-03-22 16:12:45,065 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 302567496 Bytes (784334848)
+2022-03-22 16:12:46,036 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 345713848 Bytes (784334848)
+2022-03-22 16:12:46,258 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:12:46,258 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:12:46,258 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:12:46,258 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:12:46,258 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:12:46,259 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:12:46,260 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:12:46,624 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:12:46,687 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:12:46,713 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:12:46,773 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:12:46,778 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:12:46,843 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:12:46,959 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:12:47,035 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:12:47,048 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:12:47,124 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:12:47,130 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:12:47,179 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:12:47,193 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:12:47,270 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:12:47,275 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:12:47,321 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:12:47,335 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:12:47,396 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:12:47,400 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:12:47,446 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:12:47,459 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:12:47,525 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:12:47,528 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:12:47,571 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:12:47,583 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:12:47,653 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:12:47,674 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:12:47,734 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:12:47,743 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:12:47,814 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:12:48,385 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 218mS.
+2022-03-22 16:12:48,388 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:12:48,565 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:12:49,470 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1082mS.
+2022-03-22 16:12:49,470 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:12:49,473 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:16:00,765 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:17:20,818 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,523x300,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:17:22,135 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:17:55,810 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 306216712 Bytes (784334848)
+2022-03-22 16:17:57,412 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 401110792 Bytes (784334848)
+2022-03-22 16:17:57,629 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:17:57,629 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:17:57,629 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:17:57,629 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:17:57,629 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:17:57,629 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:17:57,629 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:17:57,630 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:17:58,001 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:17:58,064 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:17:58,090 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:17:58,174 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:17:58,179 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:17:58,228 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:17:58,323 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:17:58,385 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:17:58,397 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:17:58,479 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:17:58,484 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:17:58,533 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:17:58,549 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:17:58,614 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:17:58,618 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:17:58,688 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:17:58,707 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:17:58,807 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:17:58,815 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:17:58,867 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:17:58,883 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:17:58,949 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:17:58,952 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:17:58,996 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:17:59,009 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:17:59,080 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:17:59,102 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:17:59,164 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:17:59,172 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:17:59,249 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:17:59,763 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 217mS.
+2022-03-22 16:17:59,766 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:18:00,074 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:18:01,031 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1265mS.
+2022-03-22 16:18:01,032 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 1mS.
+2022-03-22 16:18:01,035 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:31:10,741 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 499941808 Bytes (784334848)
+2022-03-22 16:31:10,946 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:31:10,946 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:31:10,946 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:31:10,946 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:31:10,946 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:31:10,946 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:31:10,946 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:31:10,947 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:31:11,346 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:31:11,418 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:31:11,443 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:31:11,507 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:31:11,515 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:31:11,568 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:31:11,691 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:31:11,763 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:31:11,778 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:31:11,853 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:31:11,861 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:31:11,916 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:31:11,929 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:31:11,996 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:31:12,001 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:31:12,049 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:31:12,065 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:31:12,132 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:31:12,140 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:31:12,188 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:31:12,201 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:31:12,268 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:31:12,272 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:31:12,317 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:31:12,328 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:31:12,399 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:31:12,422 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:31:12,485 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:31:12,494 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:31:12,567 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:31:13,156 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 228mS.
+2022-03-22 16:31:13,159 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:31:13,332 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:31:14,267 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1108mS.
+2022-03-22 16:31:14,268 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:31:14,270 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 16:33:20,150 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 16:33:21,106 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 511307784 Bytes (847249408)
+2022-03-22 16:33:22,069 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 545546376 Bytes (847249408)
+2022-03-22 16:33:25,168 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 343413544 Bytes (847249408)
+2022-03-22 16:33:25,426 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:33:25,426 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 16:33:25,427 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 16:33:25,427 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 16:33:25,427 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 16:33:25,427 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 16:33:25,428 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 16:33:25,429 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 16:33:25,817 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 16:33:25,878 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 16:33:25,902 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 16:33:25,963 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 16:33:25,968 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 16:33:26,014 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 16:33:26,108 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 16:33:26,171 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 16:33:26,184 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 16:33:26,265 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 16:33:26,270 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 16:33:26,318 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 16:33:26,332 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 16:33:26,396 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 16:33:26,401 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 16:33:26,448 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 16:33:26,463 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 16:33:26,529 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 16:33:26,534 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 16:33:26,601 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 16:33:26,618 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 16:33:26,732 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 16:33:26,736 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 16:33:26,787 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 16:33:26,800 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 16:33:26,874 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 16:33:26,896 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 16:33:26,960 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 16:33:26,968 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 16:33:27,034 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 16:33:27,534 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 216mS.
+2022-03-22 16:33:27,537 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 16:33:27,821 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 16:33:28,607 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1070mS.
+2022-03-22 16:33:28,608 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 1mS.
+2022-03-22 16:33:28,611 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 18:05:26,075 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 18:05:30,821 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 18:05:37,330 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 18:05:41,678 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 18:06:22,865 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-22 18:06:30,354 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 555140592 Bytes (847249408)
+2022-03-22 18:06:33,389 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 315320040 Bytes (847249408)
+2022-03-22 18:06:36,348 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 423323368 Bytes (847249408)
+2022-03-22 18:06:36,585 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 18:06:36,585 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 18:06:36,585 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 18:06:36,585 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F7
+2022-03-22 18:06:36,585 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-22 18:06:36,585 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-22 18:06:36,585 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-22 18:06:36,585 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-03-22 18:06:36,586 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-22 18:06:36,586 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-03-22 18:06:37,015 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp_save
+2022-03-22 18:06:37,080 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\license.tmp
+2022-03-22 18:06:37,106 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c_save
+2022-03-22 18:06:37,171 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\gpio.c
+2022-03-22 18:06:37,176 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h_save
+2022-03-22 18:06:37,222 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\gpio.h
+2022-03-22 18:06:37,361 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp_save
+2022-03-22 18:06:37,447 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\cortex.tmp
+2022-03-22 18:06:37,466 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c_save
+2022-03-22 18:06:37,583 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\tim.c
+2022-03-22 18:06:37,592 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h_save
+2022-03-22 18:06:37,661 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\tim.h
+2022-03-22 18:06:37,679 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c_save
+2022-03-22 18:06:37,769 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\usart.c
+2022-03-22 18:06:37,775 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h_save
+2022-03-22 18:06:37,828 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\usart.h
+2022-03-22 18:06:37,843 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c_save
+2022-03-22 18:06:37,913 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_it.c
+2022-03-22 18:06:37,917 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h_save
+2022-03-22 18:06:37,964 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_it.h
+2022-03-22 18:06:37,977 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c_save
+2022-03-22 18:06:38,041 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\stm32f7xx_hal_msp.c
+2022-03-22 18:06:38,045 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp_save
+2022-03-22 18:06:38,089 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\MXTmpFiles\system.tmp
+2022-03-22 18:06:38,100 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h_save
+2022-03-22 18:06:38,172 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\stm32f7xx_hal_conf.h
+2022-03-22 18:06:38,196 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h_save
+2022-03-22 18:06:38,268 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Inc\main.h
+2022-03-22 18:06:38,277 [INFO] CodeEngine:237 - oldGeneratedFile, C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c_save
+2022-03-22 18:06:38,355 [INFO] CodeEngine:261 - Generated code: C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\MCU\Sterowanie_MCU\Core\Src\main.c
+2022-03-22 18:06:38,863 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 219mS.
+2022-03-22 18:06:38,866 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-03-22 18:06:39,198 [INFO] ConfigFileManager:1287 - The Die is : DIE449
+2022-03-22 18:06:40,002 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 1136mS.
+2022-03-22 18:06:40,002 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-03-22 18:06:40,006 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.

@@ -61,6 +61,12 @@ void Error_Handler(void);
 #define USER_Btn_GPIO_Port GPIOC
 #define MCO_Pin GPIO_PIN_0
 #define MCO_GPIO_Port GPIOH
+#define MS1_S_Pin GPIO_PIN_5
+#define MS1_S_GPIO_Port GPIOA
+#define MS2_S_Pin GPIO_PIN_6
+#define MS2_S_GPIO_Port GPIOA
+#define MS3_S_Pin GPIO_PIN_7
+#define MS3_S_GPIO_Port GPIOA
 #define LD1_Pin GPIO_PIN_0
 #define LD1_GPIO_Port GPIOB
 #define LD3_Pin GPIO_PIN_14
@@ -69,6 +75,8 @@ void Error_Handler(void);
 #define STLK_RX_GPIO_Port GPIOD
 #define STLK_TX_Pin GPIO_PIN_9
 #define STLK_TX_GPIO_Port GPIOD
+#define STEP_N_Pin GPIO_PIN_12
+#define STEP_N_GPIO_Port GPIOD
 #define USB_PowerSwitchOn_Pin GPIO_PIN_6
 #define USB_PowerSwitchOn_GPIO_Port GPIOG
 #define USB_OverCurrent_Pin GPIO_PIN_7
@@ -77,8 +85,14 @@ void Error_Handler(void);
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14
 #define TCK_GPIO_Port GPIOA
+#define STEP_S_Pin GPIO_PIN_15
+#define STEP_S_GPIO_Port GPIOA
 #define LD2_Pin GPIO_PIN_7
 #define LD2_GPIO_Port GPIOB
+#define DIR_S_Pin GPIO_PIN_8
+#define DIR_S_GPIO_Port GPIOB
+#define ENABLE_S_Pin GPIO_PIN_9
+#define ENABLE_S_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

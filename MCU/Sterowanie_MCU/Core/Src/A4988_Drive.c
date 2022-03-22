@@ -135,8 +135,44 @@ int Calculate_Steps_A4988(A4988_Drive* drive, float angle){
 	//
 	int steps = 0;
 	float r_s,x_s;
-	r_s = 360/(drive->STEPS);
-	x_s = r_s/drive->RESOLUTION;
-	steps = round(angle/x_s);
+	r_s = 360/((float)(drive->STEPS));
+	x_s = r_s/((float)(drive->RESOLUTION));
+	steps = (int)round(angle/x_s);
 	return steps;
+}
+void Rotate_A4988(A4988_Drive* drive, float angle){
+	//
+	//	Rotates the motor.
+	//	@param angle: Desired angle to rotate.
+	//	@param drive: Pointer to structure.
+	//	@return: none
+	//
+	if(drive->NAME[0] == 'S'){
+		int steps = Calculate_Steps_A4988(drive, angle);
+		__HAL_TIM_SET_AUTORELOAD(&TIM_STEPS_COUNTER_S,steps);
+		Sleep_A4988(drive, ENABLE_DRIVE);
+		HAL_TIM_PWM_Start(&TIM_PWM_S, TIM_PWM_CHANNEL_S);
+	}else{
+		int steps = Calculate_Steps_A4988(drive, angle);
+		__HAL_TIM_SET_AUTORELOAD(&TIM_STEPS_COUNTER_N,steps);
+		Sleep_A4988(drive, ENABLE_DRIVE);
+		HAL_TIM_PWM_Start(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
+	}
+}
+void Init_A4988(A4988_Drive* drive){
+	if(drive->NAME[0] == 'S'){
+		  HAL_TIM_Base_Start_IT(&TIM_STEPS_COUNTER_S);
+		  Set_Resolution_A4988(drive, HALF_STEP);
+		  Set_Direction_A4988(drive, RIGHT_DIR);
+		  Enable_A4988(drive, ENABLE_DRIVE);
+		  Reset_A4988(drive, ENABLE_DRIVE);
+		  Sleep_A4988(drive, DISABLE_DRIVE);
+	}else{
+		HAL_TIM_Base_Start_IT(&TIM_STEPS_COUNTER_N);
+		Set_Resolution_A4988(drive, HALF_STEP);
+		Set_Direction_A4988(drive, RIGHT_DIR);
+		Enable_A4988(drive, ENABLE_DRIVE);
+		Reset_A4988(drive, ENABLE_DRIVE);
+		Sleep_A4988(drive, DISABLE_DRIVE);
+	}
 }

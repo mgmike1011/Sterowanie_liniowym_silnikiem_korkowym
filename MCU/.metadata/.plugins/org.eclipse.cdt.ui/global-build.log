@@ -1,4 +1,4 @@
-19:46:54 **** Incremental Build of configuration Debug for project Sterowanie_MCU ****
+18:13:25 **** Incremental Build of configuration Debug for project Sterowanie_MCU ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/A4988_Drive.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/A4988_Drive.d" -MT"Core/Src/A4988_Drive.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/A4988_Drive.o"
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
@@ -8,8 +8,15 @@ Finished building target: Sterowanie_MCU.elf
 arm-none-eabi-size   Sterowanie_MCU.elf 
 arm-none-eabi-objdump -h -S  Sterowanie_MCU.elf  > "Sterowanie_MCU.list"
    text	   data	    bss	    dec	    hex	filename
-  10820	     20	   1700	  12540	   30fc	Sterowanie_MCU.elf
+  20256	     92	   2004	  22352	   5750	Sterowanie_MCU.elf
 Finished building: default.size.stdout
  
 Finished building: Sterowanie_MCU.list
+ 
+18:13:31 **** Incremental Build of configuration Debug for project Sterowanie_MCU ****
+make -j12 all 
+arm-none-eabi-size   Sterowanie_MCU.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20256	     92	   2004	  22352	   5750	Sterowanie_MCU.elf
+Finished building: default.size.stdout
  

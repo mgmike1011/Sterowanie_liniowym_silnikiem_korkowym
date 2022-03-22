@@ -9,6 +9,7 @@
 #define INC_A4988_DRIVE_H_
 #include "main.h"
 #include "stm32f7xx_hal.h"
+#include "tim.h"
 //
 // Define
 //
@@ -24,6 +25,17 @@
 // Enable/Disable
 #define ENABLE_DRIVE 	1
 #define DISABLE_DRIVE 	2
+// TIM
+#define TIM_CLK 72000000
+#define TIM_PSC 71
+// Syringe TIM
+#define TIM_PWM_S			htim2
+#define TIM_PWM_CHANNEL_S 	TIM_CHANNEL_1
+#define TIM_STEPS_COUNTER_S htim3
+// Needle TIM
+#define TIM_PWM_N			htim4
+#define TIM_PWM_CHANNEL_N 	TIM_CHANNEL_1
+#define TIM_STEPS_COUNTER_N htim5
 //
 // Structure
 //
@@ -52,7 +64,6 @@ typedef struct{
 	//Sleep PORT/PIN
 	GPIO_TypeDef* 	PORT_SLEEP;
 	uint16_t 		PIN_SLEEP;
-	// Timer
 }A4988_Drive;
 //
 // Functions
@@ -62,5 +73,7 @@ void Set_Direction_A4988(A4988_Drive* drive, int direction);
 void Enable_A4988(A4988_Drive* drive, int signal);
 void Reset_A4988(A4988_Drive* drive, int reset);
 void Sleep_A4988(A4988_Drive* drive, int sleep);
+void Rotate_A4988(A4988_Drive* drive, float angle);
 int Calculate_Steps_A4988(A4988_Drive* drive, float angle);
+void Init_A4988(A4988_Drive* drive);
 #endif /* INC_A4988_DRIVE_H_ */

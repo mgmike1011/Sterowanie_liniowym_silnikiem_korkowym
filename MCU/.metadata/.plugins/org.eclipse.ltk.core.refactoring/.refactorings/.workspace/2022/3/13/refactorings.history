@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Sterowanie_MCU/Core/Inc/stepper.h&apos;" deleteContents="false" description="Delete resource &apos;Sterowanie_MCU/Core/Inc/stepper.h&apos;" element1="/Sterowanie_MCU/Core/Inc/stepper.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1647966344321"/>&#x0A;<refactoring comment="Delete resource &apos;Sterowanie_MCU/Core/Src/stepper.c&apos;" deleteContents="false" description="Delete resource &apos;Sterowanie_MCU/Core/Src/stepper.c&apos;" element1="/Sterowanie_MCU/Core/Src/stepper.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1647966356921"/>
+</session>

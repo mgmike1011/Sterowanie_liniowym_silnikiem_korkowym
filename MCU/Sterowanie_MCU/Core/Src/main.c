@@ -18,12 +18,14 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "A4988_Drive.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -43,7 +45,42 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+A4988_Drive Syringe = {	.NAME = "SYRINGE",
+						.STEPS = 200,
+						.RESOLUTION = 1,
+						.PORT_DIR = DIR_S_GPIO_Port,
+						.PIN_DIR = DIR_S_Pin,
+						.PORT_ENABLE = ENABLE_S_GPIO_Port,
+						.PIN_ENABLE = ENABLE_S_Pin,
+						.PORT_MS1 = MS1_S_GPIO_Port,
+						.PIN_MS1 = MS1_S_Pin,
+						.PORT_MS2 = MS2_S_GPIO_Port,
+						.PIN_MS2 = MS2_S_Pin,
+						.PORT_MS3 = MS3_S_GPIO_Port,
+						.PIN_MS3 = MS3_S_Pin
+//						,.PORT_RESET = ,
+//						.PIN_RESET = ,
+//						.PORT_SLEEP = ,
+//						.PIN_SLEEP =
+						};
+A4988_Drive Needle = {	.NAME = "NEEDLE",
+						.STEPS = 200,
+						.RESOLUTION = 1,
+//						.PORT_DIR = DIR_S_GPIO_Port,
+//						.PIN_DIR = DIR_S_Pin,
+//						.PORT_ENABLE = ENABLE_S_GPIO_Port,
+//						.PIN_ENABLE = ENABLE_S_Pin,
+//						.PORT_MS1 = MS1_S_GPIO_Port,
+//						.PIN_MS1 = MS1_S_Pin,
+//						.PORT_MS2 = MS2_S_GPIO_Port,
+//						.PIN_MS2 = MS2_S_Pin,
+//						.PORT_MS3 = MS3_S_GPIO_Port,
+//						.PIN_MS3 = MS3_S_Pin
+//						,.PORT_RESET = ,
+//						.PIN_RESET = ,
+//						.PORT_SLEEP = ,
+//						.PIN_SLEEP =
+						};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -86,14 +123,21 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART3_UART_Init();
+  MX_TIM2_Init();
+  MX_TIM3_Init();
+  MX_TIM4_Init();
+  MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
-
+Init_A4988(&Syringe);
+Set_Resolution_A4988(&Syringe, ONE_SIXTEENTH_STEP);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  HAL_Delay(1000);
+	  Rotate_A4988(&Syringe, 90);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -151,7 +195,14 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+	if(htim->Instance == TIM3){	//Syringe
+		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
+	}
+	else if(htim->Instance == TIM5){ //Needle
+		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
+	}
+}
 /* USER CODE END 4 */
 
 /**

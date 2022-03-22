@@ -159,6 +159,33 @@ void Rotate_A4988(A4988_Drive* drive, float angle){
 		HAL_TIM_PWM_Start(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
 	}
 }
+void Set_Speed(A4988_Drive* drive, int rpm){
+	//
+	//	BETA
+	//	@param rpm: Revolutions per minute
+	//	@param drive: Pointer to structure.
+	//	@return: none
+	//
+	if(drive->NAME[0] == 'S'){
+		if(rpm > 0){
+			uint16_t arr_val = TIM_CLK / (((TIM_PSC) * rpm *(drive->STEPS)*(drive->RESOLUTION))/60) - 1;
+			uint16_t pulse_val = arr_val / 2;
+			__HAL_TIM_SET_AUTORELOAD(&TIM_PWM_S, arr_val);
+			__HAL_TIM_SET_COMPARE(&TIM_PWM_S, TIM_PWM_CHANNEL_S, pulse_val);
+		}else{
+			__HAL_TIM_SET_COMPARE(&TIM_PWM_S,TIM_PWM_CHANNEL_S,0);
+		}
+	}else{
+		if(rpm > 0){
+			uint16_t arr_val = TIM_CLK / (((TIM_PSC) * rpm * (drive->STEPS) * (drive->RESOLUTION)) /60) - 1;
+			uint16_t pulse_val = arr_val / 2;
+			__HAL_TIM_SET_AUTORELOAD(&TIM_PWM_N, arr_val);
+			__HAL_TIM_SET_COMPARE(&TIM_PWM_N, TIM_PWM_CHANNEL_N, pulse_val);
+		}else{
+			__HAL_TIM_SET_COMPARE(&TIM_PWM_N,TIM_PWM_CHANNEL_N,0);
+		}
+	}
+}
 void Init_A4988(A4988_Drive* drive){
 	if(drive->NAME[0] == 'S'){
 		  HAL_TIM_Base_Start_IT(&TIM_STEPS_COUNTER_S);

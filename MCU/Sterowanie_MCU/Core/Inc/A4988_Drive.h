@@ -74,6 +74,7 @@ void Enable_A4988(A4988_Drive* drive, int signal);
 void Reset_A4988(A4988_Drive* drive, int reset);
 void Sleep_A4988(A4988_Drive* drive, int sleep);
 void Rotate_A4988(A4988_Drive* drive, float angle);
+void Set_Speed(A4988_Drive* drive, int rpm);//Beta
 int Calculate_Steps_A4988(A4988_Drive* drive, float angle);
 void Init_A4988(A4988_Drive* drive);
 #endif /* INC_A4988_DRIVE_H_ */

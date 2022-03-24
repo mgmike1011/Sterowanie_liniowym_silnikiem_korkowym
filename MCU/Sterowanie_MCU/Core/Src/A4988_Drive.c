@@ -142,7 +142,7 @@ int Calculate_Steps_A4988(A4988_Drive* drive, float angle){
 }
 void Rotate_A4988(A4988_Drive* drive, float angle){
 	//
-	//	Rotates the motor.
+	//	Rotates the motor by a given angle.
 	//	@param angle: Desired angle to rotate.
 	//	@param drive: Pointer to structure.
 	//	@return: none
@@ -159,9 +159,20 @@ void Rotate_A4988(A4988_Drive* drive, float angle){
 		HAL_TIM_PWM_Start(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
 	}
 }
+void Rotate_mm_A4988(A4988_Drive* drive, float distance){
+	//
+	//	Rotates the motor by a given distance in mm.
+	//	@param distance: Distance in mm.
+	//	@param drive: Pointer to structure.
+	//	@return: none
+	//
+	float step_res_ = 360/(float)(drive->STEPS);
+	float angle = (distance*step_res_)/((float)(drive->STEP_mm_RESOLUTION));
+	Rotate_A4988(drive, angle);
+}
 void Set_Speed(A4988_Drive* drive, int rpm){
 	//
-	//	BETA
+	//	Sets the speed of rotor.
 	//	@param rpm: Revolutions per minute
 	//	@param drive: Pointer to structure.
 	//	@return: none
@@ -187,6 +198,11 @@ void Set_Speed(A4988_Drive* drive, int rpm){
 	}
 }
 void Init_A4988(A4988_Drive* drive){
+	//
+	//	Initialize the drive.
+	//	@param drive: Pointer to structure.
+	//	@return: none
+	//
 	if(drive->NAME[0] == 'S'){
 		  HAL_TIM_Base_Start_IT(&TIM_STEPS_COUNTER_S);
 		  Set_Resolution_A4988(drive, HALF_STEP);

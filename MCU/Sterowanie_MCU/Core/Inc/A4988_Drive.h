@@ -43,6 +43,7 @@ typedef struct{
 	// Motor parameters:
 	int STEPS;
 	char NAME[10];
+	float STEP_mm_RESOLUTION;
 	// Software parameters:
 	// Direction PORT/PIN
 	GPIO_TypeDef	*PORT_DIR;
@@ -74,6 +75,7 @@ void Enable_A4988(A4988_Drive* drive, int signal);
 void Reset_A4988(A4988_Drive* drive, int reset);
 void Sleep_A4988(A4988_Drive* drive, int sleep);
 void Rotate_A4988(A4988_Drive* drive, float angle);
+void Rotate_mm_A4988(A4988_Drive* drive, float distance);
 void Set_Speed(A4988_Drive* drive, int rpm);//Beta
 int Calculate_Steps_A4988(A4988_Drive* drive, float angle);
 void Init_A4988(A4988_Drive* drive);

@@ -57,29 +57,31 @@ A4988_Drive Syringe = {	.NAME = "SYRINGE",
 						.PORT_MS2 = MS2_S_GPIO_Port,
 						.PIN_MS2 = MS2_S_Pin,
 						.PORT_MS3 = MS3_S_GPIO_Port,
-						.PIN_MS3 = MS3_S_Pin
-//						,.PORT_RESET = ,
-//						.PIN_RESET = ,
-//						.PORT_SLEEP = ,
-//						.PIN_SLEEP =
+						.PIN_MS3 = MS3_S_Pin,
+						.STEP_mm_RESOLUTION = 0.005
+						,.PORT_RESET = RESET_S_GPIO_Port,
+						.PIN_RESET = RESET_S_Pin,
+						.PORT_SLEEP = SLEEP_S_GPIO_Port ,
+						.PIN_SLEEP = SLEEP_S_Pin
 						};
 A4988_Drive Needle = {	.NAME = "NEEDLE",
 						.STEPS = 200,
 						.RESOLUTION = 1,
-//						.PORT_DIR = ,
-//						.PIN_DIR = ,
-//						.PORT_ENABLE = ,
-//						.PIN_ENABLE = ,
-//						.PORT_MS1 = ,
-//						.PIN_MS1 = ,
-//						.PORT_MS2 = ,
-//						.PIN_MS2 = ,
-//						.PORT_MS3 = ,
-//						.PIN_MS3 = ,
-//						.PORT_RESET = ,
-//						.PIN_RESET = ,
-//						.PORT_SLEEP = ,
-//						.PIN_SLEEP =
+						.STEP_mm_RESOLUTION = 0.005
+						,.PORT_DIR = DIR_N_GPIO_Port,
+						.PIN_DIR = DIR_N_Pin,
+						.PORT_ENABLE = ENABLE_N_GPIO_Port,
+						.PIN_ENABLE = ENABLE_N_Pin,
+						.PORT_MS1 = MS1_N_GPIO_Port,
+						.PIN_MS1 = MS1_N_Pin,
+						.PORT_MS2 = MS2_N_GPIO_Port,
+						.PIN_MS2 = MS2_N_Pin,
+						.PORT_MS3 = MS3_N_GPIO_Port,
+						.PIN_MS3 = MS3_N_Pin,
+						.PORT_RESET = RESET_N_GPIO_Port,
+						.PIN_RESET = RESET_N_Pin,
+						.PORT_SLEEP = SLEEP_N_GPIO_Port,
+						.PIN_SLEEP = SLEEP_N_Pin
 						};
 /* USER CODE END PV */
 
@@ -129,15 +131,14 @@ int main(void)
   MX_TIM5_Init();
   /* USER CODE BEGIN 2 */
 Init_A4988(&Syringe);
-Set_Resolution_A4988(&Syringe, ONE_SIXTEENTH_STEP);
+Init_A4988(&Needle);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  HAL_Delay(1000);
-	  Rotate_A4988(&Syringe, 90);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

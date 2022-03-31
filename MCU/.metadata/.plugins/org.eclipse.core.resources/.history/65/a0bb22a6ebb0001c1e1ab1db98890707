@@ -18,7 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "i2c.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -130,7 +129,6 @@ int main(void)
   MX_TIM3_Init();
   MX_TIM4_Init();
   MX_TIM5_Init();
-  MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
 Init_A4988(&Syringe);
 Init_A4988(&Needle);
@@ -204,25 +202,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	}
 	else if(htim->Instance == TIM5){ //Needle
 		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
-	}
-}
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
-	if(GPIO_Pin == END_STOP_S_1_Pin){ // END STOP Syringe Near Drive
-		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
-		Set_Direction_A4988(&Syringe, LEFT_DIR);
-		Rotate_mm_A4988(&Syringe, 10);
-	}else if(GPIO_Pin == END_STOP_S_2_Pin){ // END STOP Syringe Near Syringe
-		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
-		Set_Direction_A4988(&Syringe, RIGHT_DIR);
-		Rotate_mm_A4988(&Syringe, 10);
-	}else if(GPIO_Pin == END_STOP_N_1_Pin){ // END STOP Needle Near Drive
-		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
-		Set_Direction_A4988(&Needle, LEFT_DIR);
-		Rotate_mm_A4988(&Needle, 10);
-	}else if(GPIO_Pin == END_STOP_N_2_Pin){ // END STOP Needle Near Needle
-		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
-		Set_Direction_A4988(&Needle, RIGHT_DIR);
-		Rotate_mm_A4988(&Needle, 10);
 	}
 }
 /* USER CODE END 4 */

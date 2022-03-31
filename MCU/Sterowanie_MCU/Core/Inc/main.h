@@ -57,8 +57,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define USER_Btn_Pin GPIO_PIN_13
-#define USER_Btn_GPIO_Port GPIOC
 #define MCO_Pin GPIO_PIN_0
 #define MCO_GPIO_Port GPIOH
 #define MS1_S_Pin GPIO_PIN_5
@@ -71,10 +69,22 @@ void Error_Handler(void);
 #define LD1_GPIO_Port GPIOB
 #define DIR_N_Pin GPIO_PIN_7
 #define DIR_N_GPIO_Port GPIOE
+#define END_STOP_N_1_Pin GPIO_PIN_8
+#define END_STOP_N_1_GPIO_Port GPIOE
+#define END_STOP_N_1_EXTI_IRQn EXTI9_5_IRQn
+#define END_STOP_S_1_Pin GPIO_PIN_9
+#define END_STOP_S_1_GPIO_Port GPIOE
+#define END_STOP_S_1_EXTI_IRQn EXTI9_5_IRQn
 #define SLEEP_N_Pin GPIO_PIN_10
 #define SLEEP_N_GPIO_Port GPIOE
+#define END_STOP_S_2_Pin GPIO_PIN_11
+#define END_STOP_S_2_GPIO_Port GPIOE
+#define END_STOP_S_2_EXTI_IRQn EXTI15_10_IRQn
 #define RESET_N_Pin GPIO_PIN_12
 #define RESET_N_GPIO_Port GPIOE
+#define END_STOP_N_2_Pin GPIO_PIN_13
+#define END_STOP_N_2_GPIO_Port GPIOE
+#define END_STOP_N_2_EXTI_IRQn EXTI15_10_IRQn
 #define MS3_N_Pin GPIO_PIN_14
 #define MS3_N_GPIO_Port GPIOE
 #define MS2_N_Pin GPIO_PIN_15

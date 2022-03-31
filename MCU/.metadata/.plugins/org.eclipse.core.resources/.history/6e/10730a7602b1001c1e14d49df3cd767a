@@ -134,6 +134,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 Init_A4988(&Syringe);
 Init_A4988(&Needle);
+Rotate_A4988(&Syringe, 720);
   /* USER CODE END 2 */
 
   /* Infinite loop */

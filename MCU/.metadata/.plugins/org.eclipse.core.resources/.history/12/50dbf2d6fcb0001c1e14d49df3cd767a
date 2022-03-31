@@ -134,6 +134,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 Init_A4988(&Syringe);
 Init_A4988(&Needle);
+Rotate_A4988(&Syringe, 720);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -209,22 +210,18 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if(GPIO_Pin == END_STOP_S_1_Pin){ // END STOP Syringe Near Drive
 		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
-		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_S, 0); // Reset Counter Syringe
 		Set_Direction_A4988(&Syringe, LEFT_DIR);
-		Rotate_mm_A4988(&Syringe, 10);
+		Rotate_A4988(&Syringe, 90);
 	}else if(GPIO_Pin == END_STOP_S_2_Pin){ // END STOP Syringe Near Syringe
 		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
-		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_S, 0); // Reset Counter Syringe
 		Set_Direction_A4988(&Syringe, RIGHT_DIR);
 		Rotate_mm_A4988(&Syringe, 10);
 	}else if(GPIO_Pin == END_STOP_N_1_Pin){ // END STOP Needle Near Drive
 		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
-		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_N, 0); // Reset Counter Needle
 		Set_Direction_A4988(&Needle, LEFT_DIR);
 		Rotate_mm_A4988(&Needle, 10);
 	}else if(GPIO_Pin == END_STOP_N_2_Pin){ // END STOP Needle Near Needle
 		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
-		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_N, 0); // Reset Counter Needle
 		Set_Direction_A4988(&Needle, RIGHT_DIR);
 		Rotate_mm_A4988(&Needle, 10);
 	}

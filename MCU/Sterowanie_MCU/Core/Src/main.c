@@ -26,7 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "A4988_Drive.h"
-
+#include "VL6180X.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -46,6 +46,9 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+//
+// Motor controllers
+//
 A4988_Drive Syringe = {	.NAME = "SYRINGE",
 						.STEPS = 200,
 						.RESOLUTION = 1,
@@ -84,6 +87,11 @@ A4988_Drive Needle = {	.NAME = "NEEDLE",
 						.PORT_SLEEP = SLEEP_N_GPIO_Port,
 						.PIN_SLEEP = SLEEP_N_Pin
 						};
+//
+// Distance Sensors
+//
+VL6180X_ Syringe_sensor;
+VL6180X_ Needle_sensor;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -132,8 +140,15 @@ int main(void)
   MX_TIM5_Init();
   MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
+  // Drive initialization
 Init_A4988(&Syringe);
 Init_A4988(&Needle);
+// Sensor initialization
+VL6180X_Init(&Syringe_sensor, &hi2c2);
+//VL6180X_Init(&Needle_sensor, &hi2c2); //Do zmiany i2c handler
+configureDefault_VL6180X(&Syringe_sensor);
+//configureDefault_VL6180X(&Needle_sensor);
+uint16_t wynik = readRangeSingleMillimeters_VL6180X(&Syringe_sensor); // Przykład odczytu
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -198,6 +213,9 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+//
+// Motor driver callback
+//
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	if(htim->Instance == TIM3){	//Syringe
 		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
@@ -206,27 +224,30 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
 	}
 }
+//
+// Safety interlock (limit switch)
+//
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if(GPIO_Pin == END_STOP_S_1_Pin){ // END STOP Syringe Near Drive
 		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
 		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_S, 0); // Reset Counter Syringe
-		Set_Direction_A4988(&Syringe, LEFT_DIR);
-		Rotate_mm_A4988(&Syringe, 10);
+		Set_Direction_A4988(&Syringe, LEFT_DIR); // Set different direction
+		Rotate_mm_A4988(&Syringe, 10); // Recoil
 	}else if(GPIO_Pin == END_STOP_S_2_Pin){ // END STOP Syringe Near Syringe
 		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
 		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_S, 0); // Reset Counter Syringe
-		Set_Direction_A4988(&Syringe, RIGHT_DIR);
-		Rotate_mm_A4988(&Syringe, 10);
+		Set_Direction_A4988(&Syringe, RIGHT_DIR); // Set different direction
+		Rotate_mm_A4988(&Syringe, 10); // Recoil
 	}else if(GPIO_Pin == END_STOP_N_1_Pin){ // END STOP Needle Near Drive
-		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
+		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
 		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_N, 0); // Reset Counter Needle
-		Set_Direction_A4988(&Needle, LEFT_DIR);
-		Rotate_mm_A4988(&Needle, 10);
+		Set_Direction_A4988(&Needle, LEFT_DIR); // Set different direction
+		Rotate_mm_A4988(&Needle, 10); // Recoil
 	}else if(GPIO_Pin == END_STOP_N_2_Pin){ // END STOP Needle Near Needle
-		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N);
+		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
 		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_N, 0); // Reset Counter Needle
-		Set_Direction_A4988(&Needle, RIGHT_DIR);
-		Rotate_mm_A4988(&Needle, 10);
+		Set_Direction_A4988(&Needle, RIGHT_DIR); // Set different direction
+		Rotate_mm_A4988(&Needle, 10); // Recoil
 	}
 }
 /* USER CODE END 4 */

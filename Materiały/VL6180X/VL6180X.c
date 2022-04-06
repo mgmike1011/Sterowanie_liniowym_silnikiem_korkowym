@@ -5,7 +5,9 @@
  *      Author: Miłosz Gajewski
  */
 #include "VL6180X.h"
-// Write
+//
+// Write to register functions
+//
 void writeReg(VL6180X_* VL6180x,uint16_t reg, uint8_t value){
 	HAL_I2C_Mem_Write(VL6180x->i2cHandle, (VL6180x->address)<<1, reg, 1, &value, 1, 1000);
 	VL6180x->last_status = busEndTransmission;
@@ -17,7 +19,9 @@ void writeReg16Bit(VL6180X_* VL6180x, uint16_t reg, uint16_t value){
 	HAL_I2C_Mem_Write(VL6180x->i2cHandle, (VL6180x->address)<<1, reg, 2, m, 2, 1000);
 	VL6180x->last_status = busEndTransmission;
 }
-// Read
+//
+// Read from register functions
+//
 uint8_t readReg(VL6180X_* VL6180x, uint16_t reg){
 	uint8_t value;
 	HAL_I2C_Mem_Read(VL6180x->i2cHandle, (VL6180x->address)<<1, reg, 1, &value, 1, 1000);
@@ -31,7 +35,14 @@ uint16_t readReg16Bit(VL6180X_* VL6180x, uint16_t reg){
 	uint16_t value_ = ((uint16_t)value[1]<<8)|value[0];
 	return value_;
 }
+
 void VL6180X_Init(VL6180X_* VL6180x, I2C_HandleTypeDef* i2cHandle){
+//
+// Sensor initialization.
+// @param VL6180x: Pointer to structure.
+// @param i2cHandle: I2C handle.
+// @return: none
+//
 	VL6180x->i2cHandle = i2cHandle;
 	VL6180x->address = ADDRESS_DEFAULT;
 	VL6180x->scaling = 0;

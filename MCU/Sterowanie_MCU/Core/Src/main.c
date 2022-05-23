@@ -36,6 +36,10 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define FORWARD_NEEDLE 	RIGHT_DIR
+#define BACK_NEEDLE 	LEFT_DIR
+#define SUCK_SYRINGE	RIGHT_DIR
+#define BLOW_SYRINGE	LEFT_DIR
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -92,6 +96,13 @@ A4988_Drive Needle = {	.NAME = "NEEDLE",
 //
 VL6180X_ Syringe_sensor;
 VL6180X_ Needle_sensor;
+volatile uint16_t MESURE_needle = 0;
+volatile uint16_t MESURE_syringe = 0;
+//
+// Control
+//
+volatile uint16_t Set_distance_needle = 0;
+volatile uint16_t Set_distance_syringe = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -139,16 +150,24 @@ int main(void)
   MX_TIM4_Init();
   MX_TIM5_Init();
   MX_I2C2_Init();
+  MX_TIM6_Init();
+  MX_TIM7_Init();
+  MX_I2C4_Init();
   /* USER CODE BEGIN 2 */
   // Drive initialization
 Init_A4988(&Syringe);
 Init_A4988(&Needle);
-// Sensor initialization
-VL6180X_Init(&Syringe_sensor, &hi2c2);
-//VL6180X_Init(&Needle_sensor, &hi2c2); //Do zmiany i2c handler
-configureDefault_VL6180X(&Syringe_sensor);
-//configureDefault_VL6180X(&Needle_sensor);
-uint16_t wynik = readRangeSingleMillimeters_VL6180X(&Syringe_sensor); // Przykład odczytu
+	// Sensor initialization
+//VL6180X_Init(&Syringe_sensor, &hi2c4);
+VL6180X_Init(&Needle_sensor, &hi2c2);
+//configureDefault_VL6180X(&Syringe_sensor);
+configureDefault_VL6180X(&Needle_sensor);
+	// Measure timer Start
+HAL_TIM_Base_Start_IT(&htim6); // Needle 	- 5Hz
+HAL_TIM_Base_Start_IT(&htim7); // Syringe 	- 5Hz
+// Initial measurement
+MESURE_needle = readRangeSingleMillimeters_VL6180X(&Needle_sensor);
+//MESURE_syringe = readRangeSingleMillimeters_VL6180X(&Syringe_sensor);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -214,14 +233,28 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 //
-// Motor driver callback
+// TIM callback
 //
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-	if(htim->Instance == TIM3){	//Syringe
+	// Motor driver callback
+	if(htim->Instance == TIM3){	// Syringe
 		HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
 	}
-	else if(htim->Instance == TIM5){ //Needle
+	else if(htim->Instance == TIM5){ // Needle
 		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
+	}
+	// Control callback
+	else if (htim->Instance == TIM6) {
+		MESURE_needle = readRangeSingleMillimeters_VL6180X(&Needle_sensor); // Measurement
+		if(MESURE_needle > Set_distance_needle){
+			HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
+		}
+	}
+	else if (htim->Instance == TIM7) {
+//		MESURE_syringe = readRangeSingleMillimeters_VL6180X(&Syringe_sensor); // Measurement
+		if(MESURE_syringe > Set_distance_syringe){
+			HAL_TIM_PWM_Stop(&TIM_PWM_S, TIM_PWM_CHANNEL_S); // Stop syringe
+		}
 	}
 }
 //
@@ -241,12 +274,12 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	}else if(GPIO_Pin == END_STOP_N_1_Pin){ // END STOP Needle Near Drive
 		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
 		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_N, 0); // Reset Counter Needle
-		Set_Direction_A4988(&Needle, LEFT_DIR); // Set different direction
+		Set_Direction_A4988(&Needle, RIGHT_DIR); // Set different direction
 		Rotate_mm_A4988(&Needle, 10); // Recoil
 	}else if(GPIO_Pin == END_STOP_N_2_Pin){ // END STOP Needle Near Needle
 		HAL_TIM_PWM_Stop(&TIM_PWM_N, TIM_PWM_CHANNEL_N); // Stop needle
 		__HAL_TIM_SetCounter(&TIM_STEPS_COUNTER_N, 0); // Reset Counter Needle
-		Set_Direction_A4988(&Needle, RIGHT_DIR); // Set different direction
+		Set_Direction_A4988(&Needle, LEFT_DIR); // Set different direction
 		Rotate_mm_A4988(&Needle, 10); // Recoil
 	}
 }

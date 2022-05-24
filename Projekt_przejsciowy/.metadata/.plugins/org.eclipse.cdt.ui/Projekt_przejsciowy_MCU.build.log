@@ -1,10 +1,10 @@
-17:19:42 **** Incremental Build of configuration Debug for project Projekt_przejsciowy_MCU ****
+09:51:03 **** Incremental Build of configuration Debug for project Projekt_przejsciowy_MCU ****
 make -j12 all 
 arm-none-eabi-size   Projekt_przejsciowy_MCU.elf 
    text	   data	    bss	    dec	    hex	filename
-  22256	    108	   1940	  24304	   5ef0	Projekt_przejsciowy_MCU.elf
+  24456	    108	   1948	  26512	   6790	Projekt_przejsciowy_MCU.elf
 Finished building: default.size.stdout
  
 
-17:19:43 Build Finished. 0 errors, 0 warnings. (took 304ms)
+09:51:03 Build Finished. 0 errors, 0 warnings. (took 297ms)
 

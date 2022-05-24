@@ -1,14 +1,22 @@
-17:19:38 **** Incremental Build of configuration Debug for project Projekt_przejsciowy_MCU ****
+09:50:57 **** Incremental Build of configuration Debug for project Projekt_przejsciowy_MCU ****
 make -j12 all 
+arm-none-eabi-gcc "../Core/Src/A4988_Drive.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/A4988_Drive.d" -MT"Core/Src/A4988_Drive.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/A4988_Drive.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Projekt_przejsciowy_MCU.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\mgmil\Documents\Sterowanie_liniowym_silnikiem_korkowym\Projekt_przejsciowy\Projekt_przejsciowy_MCU\STM32F746ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Projekt_przejsciowy_MCU.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Projekt_przejsciowy_MCU.elf
+ 
 arm-none-eabi-size   Projekt_przejsciowy_MCU.elf 
+arm-none-eabi-objdump -h -S  Projekt_przejsciowy_MCU.elf  > "Projekt_przejsciowy_MCU.list"
    text	   data	    bss	    dec	    hex	filename
-  22256	    108	   1940	  24304	   5ef0	Projekt_przejsciowy_MCU.elf
+  24456	    108	   1948	  26512	   6790	Projekt_przejsciowy_MCU.elf
 Finished building: default.size.stdout
  
-17:19:42 **** Incremental Build of configuration Debug for project Projekt_przejsciowy_MCU ****
+Finished building: Projekt_przejsciowy_MCU.list
+ 
+09:51:03 **** Incremental Build of configuration Debug for project Projekt_przejsciowy_MCU ****
 make -j12 all 
 arm-none-eabi-size   Projekt_przejsciowy_MCU.elf 
    text	   data	    bss	    dec	    hex	filename
-  22256	    108	   1940	  24304	   5ef0	Projekt_przejsciowy_MCU.elf
+  24456	    108	   1948	  26512	   6790	Projekt_przejsciowy_MCU.elf
 Finished building: default.size.stdout
  

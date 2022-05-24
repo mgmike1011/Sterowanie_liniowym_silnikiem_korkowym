@@ -148,7 +148,7 @@ void Rotate_A4988(A4988_Drive* drive, float angle){
 	//	@return: none
 	//
 	int steps = Calculate_Steps_A4988(drive, angle);
-	__HAL_TIM_SET_AUTORELOAD(drive->TIM_STEP,steps);
+	__HAL_TIM_SET_AUTORELOAD(drive->TIM_COUNTER_SLAVE,steps);
 	Sleep_A4988(drive, ENABLE_DRIVE);
 	HAL_TIM_PWM_Start(drive->TIM_STEP, drive->TIM_STEP_CHANNEL);
 }

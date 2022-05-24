@@ -74,6 +74,11 @@ A4988_Drive	motor = {	.NAME = "MOTOR",
 // Sensor odległości
 //
 VL6180X_ sensor;
+volatile uint16_t Mesure_distance = 0;
+//
+// Zadana odległość
+//
+volatile uint16_t Set_distance = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -125,7 +130,10 @@ int main(void)
   // Inicjalizacja czujnika
   VL6180X_Init(&sensor, &hi2c2);
   configureDefault_VL6180X(&sensor);
-  uint16_t wynik = readRangeSingleMillimeters_VL6180X(&sensor);
+  Mesure_distance = readRangeSingleMillimeters_VL6180X(&sensor);
+  // Sterowanie
+  Set_Resolution_A4988(&motor, HALF_STEP);
+  Rotate_A4988(&motor, 180);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -189,7 +197,12 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+	// Sterowanie w pętli otwartej - callback od sterownika silnika
+	if(htim == motor.TIM_COUNTER_SLAVE){
+		HAL_TIM_PWM_Stop(motor.TIM_STEP, motor.TIM_STEP_CHANNEL);
+	}
+}
 /* USER CODE END 4 */
 
 /**

@@ -36,6 +36,11 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+//
+// Wybór sterowania
+//
+#define PETLA_OTWARTA 1
+#define PETLA_ZAMKNIETA 2
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -79,6 +84,10 @@ volatile uint16_t Mesure_distance = 0;
 // Zadana odległość
 //
 volatile uint16_t Set_distance = 0;
+//
+// Wybór sterowania
+//
+char control = PETLA_OTWARTA;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -124,16 +133,32 @@ int main(void)
   MX_TIM2_Init();
   MX_TIM3_Init();
   MX_I2C2_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
-// Inicjalizacja silnika
-  Init_A4988(&motor);
+  //
+  // Inicjalizacja silnika
+  //
+  Init_A4988(&motor); // Domyślne parametry i włączenie pomiarów
+
+  //
   // Inicjalizacja czujnika
-  VL6180X_Init(&sensor, &hi2c2);
-  configureDefault_VL6180X(&sensor);
-  Mesure_distance = readRangeSingleMillimeters_VL6180X(&sensor);
+  //
+  VL6180X_Init(&sensor, &hi2c2); // Inicjalizacja połączenia
+  configureDefault_VL6180X(&sensor); // Domyślne ustawienia pomiaru
+  Mesure_distance = readRangeSingleMillimeters_VL6180X(&sensor); // Pomiar początkowy
+  //
   // Sterowanie
-  Set_Resolution_A4988(&motor, HALF_STEP);
-  Rotate_A4988(&motor, 180);
+  //
+  if(control == PETLA_OTWARTA){
+	  HAL_TIM_Base_Stop_IT(&htim4); // Wyłączenie pomiaru z czujnika
+	  HAL_TIM_Base_Start_IT(motor.TIM_COUNTER_SLAVE); // Włączenie zliczania impulsów
+	  Rotate_mm_A4988(&motor, Set_distance); // Obracanie
+  }else if (control == PETLA_ZAMKNIETA){
+	  HAL_TIM_Base_Start_IT(&htim4); // Włączenie pomiaru z częstotliwością 5Hz
+	  Mesure_distance = readRangeSingleMillimeters_VL6180X(&sensor); // Pomiar początkowy
+	  HAL_TIM_Base_Stop_IT(motor.TIM_COUNTER_SLAVE); // Wyłączenie zliczania impulsów
+	  HAL_TIM_PWM_Start(motor.TIM_STEP, motor.TIM_STEP_CHANNEL); // Obracanie
+  }
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -201,6 +226,23 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	// Sterowanie w pętli otwartej - callback od sterownika silnika
 	if(htim == motor.TIM_COUNTER_SLAVE){
 		HAL_TIM_PWM_Stop(motor.TIM_STEP, motor.TIM_STEP_CHANNEL);
+	}
+	// Sterowanie w pętli zamkniętej - callback od pomiaru
+	else if(htim->Instance == TIM4){
+		Mesure_distance = readRangeSingleMillimeters_VL6180X(&sensor);
+		if(Mesure_distance > Set_distance){
+			HAL_TIM_PWM_Stop(motor.TIM_STEP, motor.TIM_STEP_CHANNEL);
+		}
+	}
+}
+//
+// Bezpieczniki krańcowe
+//
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	if(GPIO_Pin == END_STOP_1_Pin){
+//		TODO
+	}else if(GPIO_Pin == END_STOP_2_Pin){
+//		TODO
 	}
 }
 /* USER CODE END 4 */
